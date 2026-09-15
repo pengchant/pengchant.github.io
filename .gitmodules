@@ -1,3 +1,6 @@
 [submodule "themes/PaperMod"]
 	path = themes/PaperMod
 	url = https://github.com/adityatelange/hugo-PaperMod.git
+[submodule "themes/tokyo-night-terminal"]
+	path = themes/tokyo-night-terminal
+	url = git@github.com:rehan-hk/hugo-tokyo-night-terminal-theme.git

@@ -1,45 +1,106 @@
 baseURL = "https://pengchant.github.io/"
 languageCode = "zh-cn"
-title = "Chen Peng's Blog"
-theme = "PaperMod"
+title = "pengchant@dev:~$"
 
-[pagination]
-pagerSize = 10
+theme = "tokyo-night-terminal"
 
+# 允许 Markdown 中使用 HTML
+[markup.goldmark.renderer]
+  unsafe = true
+
+# =========================
+# Terminal
+# =========================
 [params]
-ShowReadingTime = true
-ShowCodeCopyButtons = true
-ShowBreadCrumbs = true
-HideFooter = true
+  prompt = "pengchant@dev:~$"
 
-[params.homeInfoParams]
-Title = "Let's build something great!"
-Content = """
-专注于：
+  # =======================
+  # 首页 Dashboard
+  # =======================
+  [params.dashboard]
+    enabled = true
 
-- RAG
-- AI Agent
-- Docker
-- DevOps
-- LLM 应用开发
-"""
+    ascii_art = """
+     ____                              __
+    / __ \\___  ____  ____  ____ _____/ /_
+   / /_/ / _ \\/ __ \\/ __ \\/ __ `/ __  / /
+  / ____/  __/ / / / /_/ / /_/ / /_/ / /
+ /_/    \\___/_/ /_/\\____/\\__,_/\\__,_/_/
+  """
 
-[[menu.main]]
-identifier = "home"
-name = "首页"
-url = "/"
-weight = 10
+    ascii_color = "#bb9af7"
 
-[[menu.main]]
-identifier = "posts"
-name = "文章"
-url = "/posts/"
-weight = 10
+    title = "Welcome to Peng's Terminal"
 
+    subtitle = "RAG · AI Agent · Docker · DevOps"
 
-[[menu.main]]
-identifier = "about"
-name = "关于我"
-url = "/about/"
-weight = 10
+    hint = "Press the highlighted keys to navigate."
 
+  # =======================
+  # 社交链接
+  # =======================
+
+  [[params.social]]
+    name = "github"
+    url = "https://github.com/pengchant"
+
+  # 如果以后有 LinkedIn，可以打开
+  # [[params.social]]
+  #   name = "linkedin"
+  #   url = "https://www.linkedin.com/in/your-name"
+
+# =========================
+# 主菜单
+# =========================
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+
+    [menu.main.params]
+      shortcut = "a"
+      icon = ""
+
+  [[menu.main]]
+    identifier = "research"
+    name = "Research"
+    url = "/research/"
+    weight = 20
+
+    [menu.main.params]
+      shortcut = "r"
+      icon = ""
+
+  [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects/"
+    weight = 30
+
+    [menu.main.params]
+      shortcut = "p"
+      icon = ""
+
+  [[menu.main]]
+    identifier = "posts"
+    name = "Blog"
+    url = "/posts/"
+    weight = 40
+
+    [menu.main.params]
+      shortcut = "b"
+      icon = ""
+
+  [[menu.main]]
+    identifier = "skills"
+    name = "Skills"
+    url = "/skills/"
+    weight = 50
+
+    [menu.main.params]
+      shortcut = "s"
+      icon = ""
