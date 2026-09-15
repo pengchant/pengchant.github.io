@@ -1,9 +1,6 @@
-
 ---
 title: "Projects"
 ---
-# Projects
-
 ## RAG Research
 
 Experiments and prototypes related to Retrieval-Augmented Generation.

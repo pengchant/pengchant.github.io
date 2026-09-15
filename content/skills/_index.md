@@ -1,9 +1,6 @@
-
 ---
 title: "Skills"
 ---
-# Skills
-
 ## Programming
 
 - Python

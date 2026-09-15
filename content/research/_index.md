@@ -1,9 +1,6 @@
-
 ---
 title: "Research"
 ---
-# Research
-
 ## Research Interests
 
 My current research interests include:
