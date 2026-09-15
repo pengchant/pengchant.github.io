@@ -1,6 +1,6 @@
 baseURL = "https://pengchant.github.io/"
 languageCode = "zh-cn"
-title = "Chen Peng"
+title = "Chen Peng's Blog"
 theme = "PaperMod"
 
 [pagination]
@@ -10,6 +10,7 @@ pagerSize = 10
 ShowReadingTime = true
 ShowCodeCopyButtons = true
 ShowBreadCrumbs = true
+HideFooter = true
 
 [params.homeInfoParams]
 Title = "Let's build something great!"
@@ -27,7 +28,7 @@ Content = """
 identifier = "home"
 name = "首页"
 url = "/"
-weight = 100
+weight = 10
 
 [[menu.main]]
 identifier = "posts"
@@ -35,15 +36,10 @@ name = "文章"
 url = "/posts/"
 weight = 10
 
-[[menu.main]]
-identifier = "teaching"
-name = "教学"
-url = "/teaching/"
-weight = 10
 
 [[menu.main]]
 identifier = "about"
 name = "关于我"
 url = "/about/"
-weight = 20
+weight = 10
 
