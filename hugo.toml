@@ -1,0 +1,49 @@
+baseURL = "https://pengchant.github.io/"
+languageCode = "zh-cn"
+title = "Chen Peng"
+theme = "PaperMod"
+
+[pagination]
+pagerSize = 10
+
+[params]
+ShowReadingTime = true
+ShowCodeCopyButtons = true
+ShowBreadCrumbs = true
+
+[params.homeInfoParams]
+Title = "Let's build something great!"
+Content = """
+专注于：
+
+- RAG
+- AI Agent
+- Docker
+- DevOps
+- LLM 应用开发
+"""
+
+[[menu.main]]
+identifier = "home"
+name = "首页"
+url = "/"
+weight = 100
+
+[[menu.main]]
+identifier = "posts"
+name = "文章"
+url = "/posts/"
+weight = 10
+
+[[menu.main]]
+identifier = "teaching"
+name = "教学"
+url = "/teaching/"
+weight = 10
+
+[[menu.main]]
+identifier = "about"
+name = "关于我"
+url = "/about/"
+weight = 20
+

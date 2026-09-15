@@ -1,0 +1,34 @@
+name: Deploy Hugo
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  deploy:
+      runs-on: ubuntu-latest # 运行一台临时环境执行任务
+      steps:
+        - uses: actions/checkout@v4 # 克隆仓库代码
+          with:
+            submodules: recursive  # 递归下载子模块
+
+        - uses: peaceiris/actions-hugo@v3 # wget hugo && install hugo
+          with:
+            hugo-version: latest #　安装最新版
+            extended: true # 是否使用 extended 版本
+
+        - run: hugo --minify # 转换为html文档 --minify 压缩
+
+        - uses: actions/configure-pages@v5 # 配置pages环境
+
+        - uses: actions/upload-pages-artifact@v3 # 上传生成的网站
+          with:
+            path: ./public # 上传的目录
+
+        - uses: actions/deploy-pages@v4 # 部署

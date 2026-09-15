@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Chen Peng</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Chen Peng</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 15 Sep 2026 21:23:05 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Teaching</title>
+      <link>http://localhost:1313/teaching/</link>
+      <pubDate>Tue, 15 Sep 2026 21:23:05 +0800</pubDate>
+      <guid>http://localhost:1313/teaching/</guid>
+      <description>&lt;h2 id=&#34;主讲课程&#34;&gt;主讲课程&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Java程序设计&lt;/li&gt;
+&lt;li&gt;算法与数据结构&lt;/li&gt;
+&lt;li&gt;计算机技术与人工智能&lt;/li&gt;
+&lt;li&gt;计算机网络技术基础&lt;/li&gt;
+&lt;li&gt;Docker容器技术与运维&lt;/li&gt;
+&lt;li&gt;网页设计与开发&lt;/li&gt;
+&lt;li&gt;SpringBoot项目设计与开发&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Hello World</title>
+      <link>http://localhost:1313/posts/hello-world/</link>
+      <pubDate>Tue, 15 Sep 2026 21:21:33 +0800</pubDate>
+      <guid>http://localhost:1313/posts/hello-world/</guid>
+      <description>&lt;p&gt;这是第一篇文章，占个位。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>关于我</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;h1 id=&#34;chen-peng&#34;&gt;Chen Peng&lt;/h1&gt;
+&lt;p&gt;研究方向：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;RAG&lt;/li&gt;
+&lt;li&gt;上下文压缩&lt;/li&gt;
+&lt;li&gt;Agent系统&lt;/li&gt;
+&lt;li&gt;深度学习技术&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;技术栈：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Golang&lt;/li&gt;
+&lt;li&gt;Java&lt;/li&gt;
+&lt;li&gt;ELK&lt;/li&gt;
+&lt;li&gt;Docker&lt;/li&gt;
+&lt;li&gt;Kubernetes&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>
