@@ -1,0 +1,13 @@
+# Hugo
+/public/
+
+# Hugo cache
+/resources/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
